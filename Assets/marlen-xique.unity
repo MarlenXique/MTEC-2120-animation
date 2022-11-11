@@ -330,7 +330,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &332453765
+--- !u!114 &332453766
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -339,16 +339,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 332453758}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e39372b70fc2ce46b367790709fedbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 211f7efcac0bad04f80a88b6daf02a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   type: 3
   blocking: 0
-  speed: 0
-  audi:
-  - {fileID: 332453764}
-  maxVolume: 1
-  minVolume: 0
+  TriggerName: MagicThrust
 --- !u!1 &364955441
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,10 +555,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UseMouse: 1
   useObject: 0
-  objectName: X Bot
+  objectName: 
   hitPosition: {x: 0, y: 0, z: 0}
   hitNormal: {x: 0, y: 0, z: 0}
-  hitObject: {fileID: 332453758}
+  hitObject: {fileID: 0}
 --- !u!4 &511025757
 Transform:
   m_ObjectHideFlags: 0
