@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3947168838560317768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3947168838560317770}
+  - component: {fileID: 3947168838560317769}
+  m_Layer: 0
+  m_Name: Spray
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3947168838560317770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3947168838560317768}
+  m_LocalRotation: {x: 0.66939104, y: -0.21374264, z: 0.21627545, w: 0.6778309}
+  m_LocalPosition: {x: -1, y: 1.26, z: 0.67}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 89.286, y: -0.998, z: 34.407}
+--- !u!114 &3947168838560317769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3947168838560317768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051131338091a4b3d861d193e64fb704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxParticles: 10
+  _emitterCenter: {x: 0, y: 0, z: 0}
+  _emitterSize: {x: 0.3, y: 0.2, z: 0.3}
+  _throttle: 1
+  _life: 4
+  _lifeRandomness: 1
+  _initialVelocity: {x: 0, y: 15, z: 0}
+  _directionSpread: 0.24
+  _speedRandomness: 0.6
+  _acceleration: {x: 0, y: -3, z: 0}
+  _drag: 1.3
+  _spin: 20
+  _speedToSpin: 300
+  _spinRandomness: 0.3
+  _noiseAmplitude: 1.3
+  _noiseFrequency: 0.5
+  _noiseMotion: 1
+  _shapes:
+  - {fileID: 4300006, guid: 7977aa2e23a3b4949b0dec50b282bc9b, type: 3}
+  - {fileID: 4300004, guid: 7977aa2e23a3b4949b0dec50b282bc9b, type: 3}
+  - {fileID: 4300002, guid: 7977aa2e23a3b4949b0dec50b282bc9b, type: 3}
+  _scale: 2
+  _scaleRandomness: 0.5
+  _material: {fileID: 2100000, guid: 2d76ec8d28dba4137b0c407e0127dcc9, type: 2}
+  _castShadows: 1
+  _receiveShadows: 1
+  _randomSeed: 0
+  _debug: 0
+  _defaultMaterial: {fileID: 2100000, guid: e1aad33bf16194534a7c99e7c01a8249, type: 2}
+  _kernelShader: {fileID: 4800000, guid: 5e5e161a3708e40119404232637809fc, type: 3}
+  _debugShader: {fileID: 4800000, guid: ad2397ccf551046ecb4df814f027d430, type: 3}
